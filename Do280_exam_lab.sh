@@ -1,39 +1,3 @@
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": [],
-      "authorship_tag": "ABX9TyP5x9Nsiv4Z5JUQn/6FmJPK",
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/sandeshgao/exam_lab/blob/main/Do280_exam_lab.sh\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "execution_count": null,
-      "metadata": {
-        "id": "riwD7JxrUQlH"
-      },
-      "outputs": [],
-      "source": [
         "#for newtwork lable need to set manually fro pod\n",
         "\n",
         "#Question 1\n",
@@ -120,7 +84,3 @@
         "#Question 22\n",
         "oc new-project tuesday\n",
         "oc new-app --name probeapp registry.ocp4.example.com:8443/rhscl/httpd-24-rhel7"
-      ]
-    }
-  ]
-}
